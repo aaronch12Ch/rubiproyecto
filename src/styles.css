@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color: #11ffee00; color: aliceblue;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://proyectotopicos22.000webhostapp.com/imgfru.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin: 0;
+  height: 100vh;
+  
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:root {
+
+    --primary: #19AFFF;
+  
+    --secondary:#007832;
+  
+    --dark: #00517D;
+  
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

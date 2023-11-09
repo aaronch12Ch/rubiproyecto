@@ -1,0 +1,20 @@
+body{
+    color: aliceblue;
+    position: relative;
+   
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size:30px;
+}
+@media screen and (max-width: 1490px) {
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size:10px;
+    }
+    
+}

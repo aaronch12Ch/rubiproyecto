@@ -1,0 +1,24 @@
+<mat-toolbar class="colorbar" id="header">
+    <a routerLink="/">
+      <img class="img-fluid mt-1 imgT"
+        src="https://proyectotopicos22.000webhostapp.com/anime.jpg"
+        alt="Logotipo"
+      />
+    </a>
+    <nav mat-tab-nav-bar class="ms-auto d-none d-sm-none d-lg-block" >
+          <a
+          mat-tab-link
+          disableRipple
+          *ngFor="let link of links"
+          [routerLink]="link.url"
+          [active]="router.isActive(link.url, true)"
+          >
+         {{link.ruta}}
+          </a>
+    </nav>
+    <div class="ms-auto d-block d-sm-block d-lg-none">
+      <a class="text-dark  border-0" mat-button (click)="onToggleSidenav()">
+        <mat-icon class="colorbar" >menu</mat-icon>
+      </a>
+    </div>
+</mat-toolbar>

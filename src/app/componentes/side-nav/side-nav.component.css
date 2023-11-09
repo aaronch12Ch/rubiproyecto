@@ -1,0 +1,16 @@
+.nav-caption,
+mat-icon {
+  color: white;
+}
+.nav-caption,
+mat-icon :hover {
+  color: white;
+}
+a.active {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid rgb(189, 88, 224 ) ;
+}
+mat-nav-list a.underline {
+  position: relative;
+}

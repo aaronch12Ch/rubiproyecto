@@ -1,0 +1,50 @@
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  box-shadow: 6px 3px 5px rgb(189, 88, 224 );
+ 
+}
+  .colorbar{
+    background-color: rgb(53, 51, 52 ,0.8);
+  }
+  a {
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+
+  ::ng-deep .mat-mdc-tab-link .mdc-tab__text-label{
+    font-family: 'Courier New','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
+    color:aliceblue !important;
+    
+  }
+  a:hover {
+    font-size: 1rem;
+    background-color: rgb(189, 88, 224 );
+    border-radius: 5px;
+    box-shadow: 6px 3px 5px white;
+
+  }
+  /* Cambiar el color del Active */
+  ::ng-deep .mat-mdc-tab-link .mdc-tab-indicator__content--underline {
+    border-color: rgb(189, 88, 224 ) !important;
+    
+  }
+@media screen and (max-width: 1490px) {
+  .imgT{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+
+  }
+  .colorbar{
+    background-color: transparent;
+  }
+ 
+  .colorbar  :hover{
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+ 
